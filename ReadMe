@@ -2,28 +2,46 @@
 
 == 첨부파일 목록 ==
 1. CookieRun Bold.ttf 파일은 그래프를 그리는 폰트입니다. this.tff로 이름을 변환해서 사용합니다.
+
 2. DAP_project(Hayatt).ipynb는 부산 파크하얏트 호텔을 크롤링 한 데이터를 기반으로 분석을 진행합니다.
    해당 코드는 DAP_project.ipynb와는 다르게 최적화(중간과정 생략)이 진해오디어 있어서 빠르게 결과로 도달할 수 있습니다.
    하지만 주석은 따로 첨부되지 않았습니다.
    주석은 DAP_project.ipynb를 참조해주세요.
+   
 3. DAP_project.ipynb는 서울 시그니엘 호텔을 크롤링 한 데이터를 기반으로 분석을 진행합니다.
    해당 코드는 발표용으로 제작되었기 때문에 중간 과정이 전부 설명을 포함되어 있습니다.
+   
 4. data.xlsx는 시그니엘 호텔에 대한 정보를 크롤링한 자료입니다.
+
 5. data_hayatt.xlsx는 파크 하얏트 호텔에 대한 정보를 크롤링한 자료입니다.
+
 6. stopwords.xlsx는 시그니엘 호텔에 대한 불용어를 정리한 사전입니다.
+
 7. stopwordsHayatt.xlsx는 파크 하얏트 호텔에 대한 불용어를 정리한 사전입니다.
+
 8. webCrawler.ipynb는 웹 크롤러의 코드가 적혀있습니다.
-9. presentation은 발표에 사용한 ppt입니다.
+
+9. presentation은 발표에 사용한 ppt입니다. 
+   Mac에서 사용한 Key파일을 변환했기 때문에 폰트가 맞지 않을 수 있습니다.
 
 
 == 차용코드 목록 ==
 
 DAP_project와 관련하여 차용한 코드, 예제는 다음과 같습니다.
 1. konlpy 공식 사이트) https://konlpy.org/ko/latest/
+   Konlpy와 관련한 전반적인 메소드 사용법을 이곳에서 숙지했습니다. 
+   
 2. 텍스트 분류와 감성(Sentiment)분석 구현하기) https://techblog-history-younghunjo1.tistory.com/111
+   Bow 벡터, TF-IDF 분석의 전반적인 사용법을 이곳에서 차용했습니다.
+   
 3. Konlpy를 이용해서 영화 리뷰 분석하기) https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
+   Konlpy의 실제 사용 예제, 그리고 단어 빈도수를 그래프로 표현하는 것을 이곳에서 아이디어를 따왔습니다.
+
 4. 딥러닝을 위한 자연어처리 입문) https://wikidocs.net/21694
+   자연어처리에 대한 전반적인 진행, 해당 프로젝트에 사용된 모든 코드의 근간이 되는 예제입니다.
+
 5. 호텔 리뷰 자연어처리 입문) https://hyemin-kim.github.io/2020/08/29/E-Python-TextMining-2/#3-4-word-count
+   이것도 마찬가지로 해당 프로젝트에 사용된 모든 코드의 근간이 되는 예제입니다.
 
 webCrawler와 관련하여 차용한 코드, 예제는 다음과 같습니다.
 1. 파이썬 웹크롤링) https://rubber-tree.tistory.com/88
