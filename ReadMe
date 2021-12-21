@@ -1,6 +1,6 @@
 채점하시는 분들께 도움을 드리기 위해 readMe를 작성합니다.
 
-
+== 첨부파일 목록 ==
 1. CookieRun Bold.ttf 파일은 그래프를 그리는 폰트입니다. this.tff로 이름을 변환해서 사용합니다.
 2. DAP_project(Hayatt).ipynb는 부산 파크하얏트 호텔을 크롤링 한 데이터를 기반으로 분석을 진행합니다.
    해당 코드는 DAP_project.ipynb와는 다르게 최적화(중간과정 생략)이 진해오디어 있어서 빠르게 결과로 도달할 수 있습니다.
@@ -13,7 +13,15 @@
 8. webCrawler.ipynb는 웹 크롤러의 코드가 적혀있습니다.
 9. presentation은 발표에 사용한 ppt입니다.
 
-DAP_project와 관련하여 차용한 코드, 예제는 다음과 같습니다.
 
+== 차용코드 목록 ==
+
+DAP_project와 관련하여 차용한 코드, 예제는 다음과 같습니다.
+1. konlpy 공식 사이트) https://konlpy.org/ko/latest/
+2. 텍스트 분류와 감성(Sentiment)분석 구현하기) https://techblog-history-younghunjo1.tistory.com/111
+3. Konlpy를 이용해서 영화 리뷰 분석하기) https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
+4. 딥러닝을 위한 자연어처리 입문) https://wikidocs.net/21694
+5. 호텔 리뷰 자연어처리 입문) https://hyemin-kim.github.io/2020/08/29/E-Python-TextMining-2/#3-4-word-count
 
 webCrawler와 관련하여 차용한 코드, 예제는 다음과 같습니다.
+1. 파이썬 웹크롤링) https://rubber-tree.tistory.com/88
